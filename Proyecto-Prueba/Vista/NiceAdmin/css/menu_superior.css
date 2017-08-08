@@ -1,0 +1,21 @@
+
+@font-face /*Vuelo*/
+{
+    font-family: DJBScoreboard;
+    src: url(../fonts/djb_up_on_the_scoreboard/DJBScoreboard.ttf);
+}
+@font-face/*ListaVuelo*/
+{
+    font-family: CUBSLED;
+    src: url(../fonts/cubs_led_tfb/CUBSLED.ttf);
+}
+
+#titulo {
+    font-family: CUBSLED;
+    font-size: 27px;
+    color: #E8CF1F;
+    padding:0px 150px 0px 300px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}

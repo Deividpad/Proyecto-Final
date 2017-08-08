@@ -1,0 +1,55 @@
+/*body{
+    background-image: url(http://static.vix.com/es/sites/default/files/imj/nuestrorumbo/5/5-riesgos-de-viajar-en-avion-que-debes-conocer-1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: justify;
+}*/Z
+
+@font-face /*Vuelo*/
+{
+    font-family: DJBScoreboard;
+    src: url(../fonts/djb_up_on_the_scoreboard/DJBScoreboard.ttf);
+}
+@font-face/*ListaVuelo*/
+{
+    font-family: CUBSLED;
+    src: url(../fonts/cubs_led_tfb/CUBSLED.ttf);
+}
+
+/*h2 {
+    font-family: DJBScoreboard;
+    font-size: 35px;
+    color: #000;
+    font-weight: normal;
+    letter-spacing: 3px;
+}*/
+
+table#datatable-responsive tr:nth-child(even) {
+    font-family:CUBSLED;
+    font-size: 18px;
+    font-weight: normal;
+   /* transform:scaleY(0.6);*/
+    letter-spacing: 2px;
+    color: white;
+    background: #000 ;
+}
+
+table#datatable-responsive tr:nth-child(odd) {
+    font-family:CUBSLED;
+    font-size: 18px;
+    font-weight: normal;
+   /* transform:scaleY(0.6);*/
+    letter-spacing: 2px;
+    color: black;
+   /* background: #000 ;*/
+}
+
+table#datatable-responsive th {
+    font-family:CUBSLED;
+    font-size: 22px;
+    font-weight: normal;
+    transform:scaleY(1.1);
+    letter-spacing: 2px;
+    color: orange;
+    background-color: #000;
+}
